@@ -26,8 +26,8 @@ async function bootstrap() {
   const port = process.env.PORT || 3001;
   await app.listen(port);
 
-  console.log(`🚀 LLM Meter Backend running on: http://localhost:${port}`);
-  console.log(`📊 API available at: http://localhost:${port}/api`);
+  console.log(`LLM Meter Backend running on: http://localhost:${port}`);
+  console.log(`API available at: http://localhost:${port}/api`);
 }
 
 bootstrap();
